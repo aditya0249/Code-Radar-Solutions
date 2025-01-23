@@ -3,6 +3,7 @@
 int main(){
     char str[100];
     fgets(str,sizeof(str),stdin);
-    printf("You entered: %s\n");
+    printf("You entered: ");
+    puts(str);
     return 0;
 }
