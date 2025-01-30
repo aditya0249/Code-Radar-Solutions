@@ -6,5 +6,8 @@ int main() {
     if(!num){
         printf("True");
     }
+    else{
+        printf("False");
+    }
     return 0;
 }
