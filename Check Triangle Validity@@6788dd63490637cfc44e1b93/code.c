@@ -10,7 +10,7 @@ int main() {
         printf("Valid");
     }
     else if(n1+n3>n2){
-        printf("Valid")
+        printf("Valid");
     }
     else{
         printf("Invalid");
