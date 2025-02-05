@@ -3,13 +3,12 @@
 int main() {
     char c;
     scanf("%d",&c);
-    switch(c){
-        case 'A':
+    if(c=='A'){
         printf("Excellent");
-        break;
-        case 'C':
-        printf("Average");
-        break;
     }
-    return 0;
+    else if(c=='B'){
+        printf("Good");
+    }
+        
+        return 0;
 }
