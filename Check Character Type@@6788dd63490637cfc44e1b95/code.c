@@ -7,7 +7,7 @@ int main() {
         case 'a':
         case 'e':
         case 'i':
-        case 'o':
+        case 'O':
         case 'u':
         printf("Vowel");
         break;
