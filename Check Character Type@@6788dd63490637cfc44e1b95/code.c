@@ -22,6 +22,11 @@ int main() {
         case '8':
         case '9':
         printf("Digit");
+        case 'z':
+        printf("Consonant");
+        break;
+        default:
+        printf("Special Charcter");
     }
     return 0;
 }
