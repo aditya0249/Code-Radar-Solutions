@@ -9,8 +9,11 @@ int main() {
     else if(n%n1==0){
         printf("Divisible by %d",n1);
     }
-    else{
+    else if(n%n2==0){
         printf("Divisible by %d",n2);
+    }
+    else{
+        printf("Not Divisible");
     }
     return 0;
 }
