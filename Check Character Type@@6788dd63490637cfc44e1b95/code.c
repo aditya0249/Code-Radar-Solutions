@@ -10,6 +10,7 @@ int main() {
         case 'o':
         case 'u':
         printf("Vowel");
+        break;
         case '0':
         case '1':
         case '2':
