@@ -8,5 +8,22 @@ int main() {
         result=n1+n2;
         printf("%d",result);
     }
+    else if(c=='-'){
+        result=n1-n2;
+        printf("%d",result);
+    }
+    else if(c=='*'){
+        result=n1*n2;
+        printf("%d",result);
+    }
+    else if(c=='/'){
+        if(n2==0){
+            printf("error");
+        }
+        else{
+            result=n1/n2;
+            printf("%d",result);
+        }
+    }
     return 0;
 }
