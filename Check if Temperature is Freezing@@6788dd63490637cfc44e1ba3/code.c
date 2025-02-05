@@ -6,5 +6,8 @@ int main() {
     if(temp<=0){
         printf("Freezing");
     }
+    else{
+        printf("Above Freezing");
+    }
     return 0;
 }
