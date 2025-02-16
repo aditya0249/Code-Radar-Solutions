@@ -5,7 +5,7 @@ int main(){
     temp=num;
     while(temp){
         int rem1=temp%8;
-        reversed=reversed*10+rem;
+        reversed=reversed*10+rem1;
         temp/=10;
     }
     while(reversed){
