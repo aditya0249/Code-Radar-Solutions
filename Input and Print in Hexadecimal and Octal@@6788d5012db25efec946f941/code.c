@@ -1,6 +1,5 @@
 #include<stdio.h>
 int main(){
-    int num;
-    scanf("%d",&num);
-    printf("Octal: %d",num+2);
+    int num=8%1;
+    printf("%d",num);
 }
