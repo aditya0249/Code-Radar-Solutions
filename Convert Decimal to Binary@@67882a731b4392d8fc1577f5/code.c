@@ -15,5 +15,5 @@ int main()
         r2=r2*10+rem2;
         r1/=10;
     }
-    prinitf("%d",r2);
+    printf("%d",r2);
 }
