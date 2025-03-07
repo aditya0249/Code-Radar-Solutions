@@ -1,7 +1,7 @@
 #include<stdio.h>
-//int isPrime(int);
+int isPrime(int);
 int isPrime(int n){
-    int flag=1;
+    
     if(n==2){
         return 1;
         
@@ -13,10 +13,9 @@ int isPrime(int n){
                 return 0;
                 
             }
-            if(flag){
-                return 1;
-            }
+            
         }
+        return 1;
         
     }
 }
