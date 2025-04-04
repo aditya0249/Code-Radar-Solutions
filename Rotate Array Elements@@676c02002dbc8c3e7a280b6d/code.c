@@ -14,8 +14,9 @@ int main(){
     for(int j=t_temp; j>=0; j--){
         arr[t_temp]=arr[n_num];
         n_num--;
-        int diff=num-k;
+
     }
+    int diff=num-k;
     for(int l=0; l<k; l++){
         arr[0]=arr[diff];
         diff++;
