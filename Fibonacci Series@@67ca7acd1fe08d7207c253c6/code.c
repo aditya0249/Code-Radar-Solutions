@@ -5,6 +5,8 @@ int fibonacciSeries(int num){
         return 1;
     }
     else{
-        return fibonacciSeries(num-1)+fibonacciSeries(num-2);
+        for(int i=0; i<n; i++){
+            return fibonacciSeries(i-1)+fibonacciSeries(i-2)
+        }
     }
 }
