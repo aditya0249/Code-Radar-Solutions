@@ -6,7 +6,7 @@ int fibonacciSeries(int num){
     }
     else{
         for(int i=0; i<num; i++){
-            return fibonacciSeries(i-1)+fibonacciSeries(i-2)
+            return fibonacciSeries(i-1)+fibonacciSeries(i-2);
         }
     }
 }
