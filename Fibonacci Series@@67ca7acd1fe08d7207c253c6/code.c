@@ -6,7 +6,7 @@ int fibonacciSeries(int num){
     }
     else{
         int a=0,b=1,temp=0;
-        printf("%d %d ",0,1)
+        printf("%d %d ",0,1);
         for(int i=0; i<num-2; i++){
            temp=b;
            b+=a;
