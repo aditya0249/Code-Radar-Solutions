@@ -27,7 +27,7 @@ int main(){
     }
     
     for(int k=0; k<num; k++){
-        printf("%d ",arr[k]);
+        printf("%d\n",arr[k]);
 
     }
 }
