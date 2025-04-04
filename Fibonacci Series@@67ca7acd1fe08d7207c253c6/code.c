@@ -1,8 +1,8 @@
 #include<stdio.h>
 int fibonacciSeries(int);
 int fibonacciSeries(int num){
-    if(num==0 || num==1){
-        printf("%d",1);
+    if(num==1){
+        printf("%d",0);
     }
     else{
         int a=0,b=1,temp=0;
