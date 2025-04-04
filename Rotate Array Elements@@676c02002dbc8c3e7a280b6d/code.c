@@ -17,7 +17,7 @@ int main(){
 
     }
     int diff=num-k;
-    for(int l=0; l<k; l++){
+    for(int l=0; l>k; l++){
         arr[0]=arr[diff];
         diff++;
     }
