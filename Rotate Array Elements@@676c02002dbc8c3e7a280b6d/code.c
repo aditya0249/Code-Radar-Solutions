@@ -22,6 +22,7 @@ int main(){
         arr[0]=arr[n_diff];
         n_diff++;
     }
+    arr[num-k];
     for(int y=0; y<temp; y++){
         printf("%d\n",arr[y]);
     }
