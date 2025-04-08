@@ -6,7 +6,6 @@ int main(){
     for(int i=0; i<n; i++){
         scanf("%d",&arr[i]);
     }
-    int last=arr[n-1];
 
     for(int i=0; i<n; i++){
         if(i){
@@ -15,6 +14,11 @@ int main(){
             break;
         }
         }
+        else if(arr[n-1]>arr[n-2]){
+            num=arr[n-1];
+            break;
+        }
+        
         
     }
     if(num){
