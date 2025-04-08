@@ -1,18 +1,23 @@
 #include<stdio.h>
 
 int main(){
-    int n;
+    int n,temp=0;
     scanf("%d",&n);
     int arr[n];
     for(int i=0; i<n; i++){
         scanf("%d",&arr[i]);
 
     }
-    int large=arr[0];
+    
     for(int i=0; i<n; i++){
-        if(arr[i]>large){
-            large=arr[i];
+        if(arr[i+1]>arr[i]){
+            continue;
         }
+        temp=arr[i];
+        arr[i]=arr[i+1];
+        arr[i+1]=temp;
+        
+
     }
-    printf("%d %d",arr[0],large);
+    printf("%d %d",arr[0],arr[n-1]);
 }
