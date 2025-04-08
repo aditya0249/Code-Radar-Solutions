@@ -11,7 +11,7 @@ int main(){
             count++;
         }
     }
-    if(count-1==num){
+    if(count==num){
         printf("Sorted");
     }
     else{
