@@ -12,7 +12,7 @@ int main(){
             count++;
         }
     }
-    if(count==n){
+    if(count==num){
         printf("Sorted");
     }
     else{
