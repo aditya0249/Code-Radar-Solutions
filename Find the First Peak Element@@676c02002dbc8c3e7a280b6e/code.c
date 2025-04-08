@@ -12,5 +12,10 @@ int main(){
             break;
         }
     }
-    printf("%d",num);
+    if(num){
+        printf("%d",num);
+    }
+    else{
+        printf("%d",-1);
+    }
 }
