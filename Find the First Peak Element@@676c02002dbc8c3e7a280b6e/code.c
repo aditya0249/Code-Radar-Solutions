@@ -6,26 +6,15 @@ int main(){
     for(int i=0; i<n; i++){
         scanf("%d",&arr[i]);
     }
+    int last=arr[n-1];
     for(int i=0; i<n; i++){
-        if(arr[i]>arr[i+1]){
-            num=arr[i];
-            break;
-        }
-        continue;
-    }
-    for(int i=0; i<n; i++){
+        if(arr[i]!=last){
         if(arr[i]<arr[i+1] && arr[i+2]<arr[i+1]){
             num=num=arr[i+1];
             break;
         }
-        continue;
-    }
-    for(int i=0; i<n; i++){
-        if(arr[n-1]>arr[n-2]){
-            num=arr[n-1];
-            break;
         }
-        continue;
+        
     }
     if(num){
         printf("%d",num);
