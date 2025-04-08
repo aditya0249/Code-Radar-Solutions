@@ -1,14 +1,13 @@
 #include<stdio.h>
 int main(){
-    int num,n,count=0;
+    int num,count=0;
     scanf("%d",&num);
     int arr[num];
     for(int i=0; i<num; i++){
         scanf("%d",&arr[i]);
     }
     for(int i=0; i<num; i++){
-        n=arr[i];
-        if(arr[i+1]>=n){
+        if(arr[i+1]>=arr[i]){
             count++;
         }
     }
