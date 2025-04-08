@@ -19,7 +19,7 @@ int main(){
         }
     }
     for(int i=0; i<n; i++){
-        else if(arr[n-1]>arr[n-2]){
+        if(arr[n-1]>arr[n-2]){
             num=arr[n-1];
             break;
         }
