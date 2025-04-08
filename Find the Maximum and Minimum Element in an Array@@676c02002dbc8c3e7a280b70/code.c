@@ -10,17 +10,16 @@ int main(){
     }
     
     for(int i=0; i<n; i++){
-        if(arr[i+1]>arr[i]){
+        for(int j=0; j<n; j++){
+            if(arr[i+1]>arr[i]){
             continue;
         }
         temp=arr[i];
         arr[i]=arr[i+1];
         arr[i+1]=temp;
+        }
         
 
     }
     printf("%d %d\n",arr[0],arr[n-1]);
-    for(int i=0; i<n; i++){
-        printf("%d ",arr[i]);
-    }
 }
