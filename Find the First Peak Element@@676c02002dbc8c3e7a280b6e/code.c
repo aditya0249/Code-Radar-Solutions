@@ -13,7 +13,9 @@ int main(){
             num=num=arr[i];
             break;
         }
-        continue;
+        else{
+            continue;
+        }
         }
         else if(arr[n-1]>arr[n-2]){
             num=arr[n-1];
