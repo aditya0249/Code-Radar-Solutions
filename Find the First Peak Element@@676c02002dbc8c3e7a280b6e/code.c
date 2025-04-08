@@ -6,7 +6,6 @@ int main(){
     for(int i=0; i<n; i++){
         scanf("%d",&arr[i]);
     }
-    large=arr[1];
     for(int i=0; i<n; i++){
         num=arr[i+1];
         if(arr[i]<num && arr[i+2]<num){
