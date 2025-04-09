@@ -16,10 +16,6 @@ int main(){
             if(num==arr[j]){
                 count++;
             }
-            for(int i=c; i<=c; i++){
-                printf("%d %d\n",arr[i],count);
-            }
-            c++;
 
         }
         printf("%d %d",num,count);
