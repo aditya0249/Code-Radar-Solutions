@@ -1,42 +1,29 @@
-#include <stdio.h>
+#include<stdio.h>
 
-int main() {
-    int n, count;
-    scanf("%d", &n);
-    int arr[n];
-
-    // Input the array elements
-    for (int i = 0; i < n; i++) {
-        scanf("%d", &arr[i]);
+int main(){
+    int n,num=0,c,i=0;
+    scanf("%d",&n);
+    int arr[n],n_arr[];
+    for(int i=0; i<n; i++){
+        scanf("%d",&arr[i]);
     }
-
-    // Count frequency and skip printing repeated elements
-    for (int i = 0; i < n; i++) {
-        count = 0;
-
-        // Skip if the element has already been counted
-        int alreadyCounted = 0;
-        for (int j = 0; j < i; j++) {
-            if (arr[i] == arr[j]) {
-                alreadyCounted = 1;
-                break;
-            }
+    for(int i=0; i<n; i++){
+    c=1;
+    num=arr[i];
+    if(arr[i]!=-1){
+    for(int j=i+1; j<n; j++){
+        if(arr[i]==arr[j]){
+            c++;
+            arr[j]=-1
         }
-
-        if (alreadyCounted) {
-            continue;
-        }
-
-        // Count the frequency of the current element
-        for (int j = 0; j < n; j++) {
-            if (arr[i] == arr[j]) {
-                count++;
-            }
-        }
-
-        // Print the element and its frequency
-        printf("%d %d\n", arr[i], count);
     }
-
-    return 0;
+    }
+    n_arr[i]=c;
+    i++;
+    }
+    for(int i=0; i<n; i++){
+        if(arr[i]!=-1){
+            printf("%d %d\n",arr[i],n_arr[i]);
+        }
+    }
 }
