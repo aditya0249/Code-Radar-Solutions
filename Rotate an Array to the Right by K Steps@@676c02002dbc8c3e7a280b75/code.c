@@ -14,7 +14,7 @@ int main(){
         t++;
     }
     for(int i=0; i<k; i++){
-        for(int j=c; j>count; j--){
+        for(int j=c; j>=count; j--){
             arr[j+1]=arr[j];
         }
         c++;
