@@ -12,7 +12,7 @@ int main(){
     num=arr[i];
     if(arr[i]!=-1){
     for(int j=i+1; j<n; j++){
-        if(arr[i]==arr[j]){
+        if(num==arr[j]){
             c++;
             arr[j]=-1;
         }
