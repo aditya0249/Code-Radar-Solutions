@@ -3,7 +3,7 @@
 int main(){
     int n,num=0,c,i=0;
     scanf("%d",&n);
-    int arr[n],n_arr[];
+    int arr[n],n_arr[n];
     for(int i=0; i<n; i++){
         scanf("%d",&arr[i]);
     }
@@ -14,7 +14,7 @@ int main(){
     for(int j=i+1; j<n; j++){
         if(arr[i]==arr[j]){
             c++;
-            arr[j]=-1
+            arr[j]=-1;
         }
     }
     }
