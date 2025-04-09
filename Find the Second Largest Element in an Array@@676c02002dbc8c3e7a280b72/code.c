@@ -17,5 +17,17 @@ int main(){
             }
         }
     }
-    printf("%d",arr[n-2]);
+    int n_temp=0,flag;
+    for(int i=0; i<n; i++){
+        flag=0;
+        n_temp=arr[0];
+        if(n_temp==arr[i]){
+            flag=1;
+        }
+    }
+    if(flag){
+        printf("%d",-1);
+    }
+    else{
+    printf("%d",arr[n-2]);}
 }
